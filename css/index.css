@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #F5F0DA;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #F5F0DA;
+  background-color: rgb(0,85,85,0.75);
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  position: fixed; /* Fixed left navbar */
+}
+
+.section {
+  height: 100vh;
+}
+
+#home {
+  background: rgb(0,85,85,0.8) rgb(6,154,142,0.2);
+}
+#issues {
+  background: rgb(0,85,85,0.8) rgb(6,154,142,0.2);
+}
+#team {
+  background: rgb(0,85,85,0.8) rgb(6,154,142,0.2);
+}
+#Goal{
+  background: rgb(0,85,85,0.8) rgb(6,154,142,0.2);
+}
+
+.nav {
+  --nav-gap: 15px;
+  padding: var(--nav-gap);
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 50px;
+}
+
+.nav-item {
+  align-items: center;
+  display: flex;
+  margin-bottom: var(--nav-gap);
+}
+
+.nav-link:hover ~ .nav-label {
+  opacity: 1;
+}
+
+.nav-link {
+  background: rgb(247,255,147,.5);
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  transition: transform 0.1s;
+}
+
+.nav-label {
+  color: #F5F0DA;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.nav-link-selected {
+  background: #F7FF93;
+  transform: scale(1.4);
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  position: fixed;
+  padding-left: 30px;
+}
+
+/* Top navigation bar */
+.topnav a {
+  float: left;
+  color: #F5F0DA;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top:5%;
+}
