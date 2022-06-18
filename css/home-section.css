@@ -1,0 +1,38 @@
+/*
+* CSS File for the Hero/Home section of our website.
+* Its imported directly to ./index.css
+*/
+
+.home-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 50px;
+}
+
+/* Home page Heading */
+.home-heading {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+/* Home Page Image */
+.hero-img {
+  width: 60%;
+}
+
+/* Media query at width = 1110 px */
+@media screen and (max-width: 1110px) {
+  .home-screen {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-text {
+    margin-bottom: 40px;
+  }
+  .home-heading {
+    text-align: center;
+  }
+}
