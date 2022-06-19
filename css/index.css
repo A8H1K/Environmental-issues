@@ -25,9 +25,9 @@ body {
   float: left;
   color: #f5f0da;
   text-align: center;
-  padding: 20px 25px;
+  padding: 30px 25px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 36px;
 }
 
 .nav-bar {
@@ -55,7 +55,7 @@ body {
   --nav-gap: 15px;
   padding: var(--nav-gap);
   position: fixed;
-  left: 0;
+  left: 50PX;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -78,8 +78,8 @@ body {
 .nav-link {
   background: rgb(247, 255, 147, 0.5);
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   margin-right: 10px;
   transition: transform 0.1s;
 }
@@ -101,4 +101,5 @@ body {
   overflow: hidden;
   position: fixed;
   padding-left: 30px;
+  margin-top:1%
 }
