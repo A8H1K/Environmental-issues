@@ -221,7 +221,7 @@
   }
 }
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 595px){
   .graph{
     margin-left: 1%;
     height: 300px;
