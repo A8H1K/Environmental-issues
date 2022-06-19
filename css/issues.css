@@ -1,4 +1,4 @@
-.text {
+.modal-text {
   color: #005555;
   font-size: 36px;
 }
@@ -31,7 +31,7 @@
   padding: 2em;
   backdrop-filter: blur(25px) saturate(180%);
   -webkit-backdrop-filter: blur(25px) saturate(180%);
-  background-color: #A1E3D8;
+  background-color: #a1e3d8;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   overflow: auto;
@@ -85,6 +85,7 @@
   height: 300px;
   width: 400px;
   text-align: center;
+  font-size: 35px;
   padding-top: 10px;
   margin-left: -20%;
   margin-top: 40%;
@@ -101,6 +102,7 @@
   height: 300px;
   width: 400px;
   text-align: center;
+  font-size: 35px;
   padding-top: 10px;
   margin-left: 60%;
   margin-top: -70%;
@@ -116,6 +118,7 @@
   height: 300px;
   width: 400px;
   text-align: center;
+  font-size: 35px;
   padding-top: 10px;
   margin-left: -100%;
   margin-top: -120%;
@@ -125,7 +128,7 @@
   padding-right: 0.3em;
 }
 
-.major {
+.issues-heading {
   color: #f5f0da;
   text-align: right;
   position: absolute;
@@ -135,129 +138,133 @@
   font-size: 48px;
 }
 
-@media screen and (max-width: 1400px){
-  .btn{
+@media screen and (max-width: 1400px) {
+  .btn {
     margin-left: -10%;
     margin-top: 100%;
     padding-top: 10px;
+    font-size: 15px;
+    color: #1b3b3b;
   }
-  .btn2{
+  .btn2 {
     margin-left: -10%;
     margin-top: -90%;
     padding-top: 10px;
-    }
-  .btn3{
+    font-size: 15px;
+    color: #1b3b3b;
+  }
+  .btn3 {
     margin-left: -10%;
     margin-top: -120%;
     padding-top: 10px;
     height: 250px;
+    font-size: 15px;
+    color: #1b3b3b;
   }
-  .major{
-    font: size 36px;
+  .issues-heading {
+    font-size: 36px;
   }
 }
 
-@media screen and (max-width: 720px){
-  .btn{
+@media screen and (max-width: 720px) {
+  .btn {
     margin-left: 10%;
     margin-top: 100%;
     padding-top: 10px;
-    }
-  .btn2{
+  }
+  .btn2 {
     margin-left: 10%;
     margin-top: -90%;
     padding-top: 10px;
-    }
-  .btn3{
+  }
+  .btn3 {
     margin-left: 10%;
     margin-top: -120%;
     padding-top: 10px;
     height: 250px;
   }
-  .major{
-    font: size 24px;
+  .issues-heading {
     margin-left: 10%;
   }
 }
 
-@media screen and (max-width: 517px){
-  .btn{
+@media screen and (max-width: 517px) {
+  .btn {
     margin-left: 10%;
     margin-top: 110%;
     padding-top: 10px;
     width: 300px;
   }
-  .btn2{
+  .btn2 {
     margin-left: 10%;
     margin-top: -150%;
     padding-top: 10px;
-        width: 300px;
+    width: 300px;
   }
-  .btn3{
+  .btn3 {
     margin-left: 10%;
     margin-top: -200%;
     padding-top: 10px;
     height: 250px;
-        width: 300px;
+    width: 300px;
   }
-  .major{
-    font: size 24px;
+  .issues-heading {
     margin-left: 10%;
   }
 }
 
-.graph{
+.graph {
   height: 90%;
   margin-left: 30%;
 }
 
-@media screen and (max-width: 1386px){
-  .graph{
+@media screen and (max-width: 1386px) {
+  .graph {
     margin-left: 10%;
     height: 400px;
-  }    
-  .text{
+  }
+  .text {
     font-size: 24px;
   }
 }
 
-@media screen and (max-width: 595px){
-  .graph{
+@media screen and (max-width: 595px) {
+  .graph {
     margin-left: 1%;
     height: 300px;
-  }    
-  .text{
+  }
+  .text {
     font-size: 20px;
   }
 }
-b{
+b {
   color: #005555;
 }
 
-@media screen and (max-width: 385px){
-  .btn{
+@media screen and (max-width: 385px) {
+  .btn {
     margin-left: 10%;
     margin-top: 110%;
     padding-top: 10px;
-        height: 200px;
+    height: 200px;
     width: 200px;
   }
-  .btn2{
+  .btn2 {
     margin-left: 10%;
     margin-top: -150%;
     padding-top: 10px;
-        height: 200px;
+    height: 200px;
 
-        width: 200px;
+    width: 200px;
   }
-  .btn3{
+  .btn3 {
     margin-left: 10%;
     margin-top: -200%;
     padding-top: 10px;
     height: 200px;
-        width: 200px;
+    width: 200px;
   }
-  .major{
+  .issues-heading {
     font-size: 36px;
     margin-left: 10%;
   }

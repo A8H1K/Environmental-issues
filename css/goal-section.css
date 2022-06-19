@@ -1,0 +1,33 @@
+.goal-screen {
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+.goal-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f7ff93;
+  margin-top: 20%;
+}
+
+.content-line {
+  padding-left: 0px;
+  margin-top: 6%;
+  font-size: 34px;
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #f7ff93;
+    margin-top: 12%;
+    margin-left: 60%;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .nav {
+    margin-left: -30px;
+  }
+}
