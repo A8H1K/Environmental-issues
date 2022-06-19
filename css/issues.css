@@ -233,3 +233,32 @@
 b{
   color: #005555;
 }
+
+@media screen and (max-width: 385px){
+  .btn{
+    margin-left: 10%;
+    margin-top: 110%;
+    padding-top: 50px;
+        height: 200px;
+    width: 200px;
+  }
+  .btn2{
+    margin-left: 10%;
+    margin-top: -150%;
+    padding-top: 50px;
+        height: 200px;
+
+        width: 200px;
+  }
+  .btn3{
+    margin-left: 10%;
+    margin-top: -200%;
+    padding-top: 50px;
+    height: 200px;
+        width: 200px;
+  }
+  .major{
+    font-size: 36px;
+    margin-left: 10%;
+  }
+}
