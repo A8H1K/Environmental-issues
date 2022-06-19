@@ -126,7 +126,6 @@
 }
 
 .major {
-  font-size: 36px;
   color: #f5f0da;
   text-align: right;
   position: absolute;
@@ -134,4 +133,75 @@
   margin-right: 50px;
   margin-left: 60%;
   font-size: 48px;
+}
+
+@media screen and (max-width: 1400px){
+  .btn{
+    margin-left: -10%;
+    margin-top: 100%;
+    padding-top: 50px;
+  }
+  .btn2{
+    margin-left: -10%;
+    margin-top: -90%;
+    padding-top: 50px;
+  }
+  .btn3{
+    margin-left: -10%;
+    margin-top: -120%;
+    padding-top: 50px;
+    height: 250px;
+  }
+  .major{
+    font: size 36px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .btn{
+    margin-left: 10%;
+    margin-top: 100%;
+    padding-top: 50px;
+  }
+  .btn2{
+    margin-left: 10%;
+    margin-top: -90%;
+    padding-top: 50px;
+  }
+  .btn3{
+    margin-left: 10%;
+    margin-top: -120%;
+    padding-top: 50px;
+    height: 250px;
+  }
+  .major{
+    font: size 24px;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 517px){
+  .btn{
+    margin-left: 10%;
+    margin-top: 110%;
+    padding-top: 50px;
+    width: 300px;
+  }
+  .btn2{
+    margin-left: 10%;
+    margin-top: -150%;
+    padding-top: 50px;
+        width: 300px;
+  }
+  .btn3{
+    margin-left: 10%;
+    margin-top: -200%;
+    padding-top: 50px;
+    height: 250px;
+        width: 300px;
+  }
+  .major{
+    font: size 24px;
+    margin-left: 10%;
+  }
 }
