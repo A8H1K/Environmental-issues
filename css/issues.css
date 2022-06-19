@@ -85,7 +85,7 @@
   height: 300px;
   width: 400px;
   text-align: center;
-  padding-top: 50%;
+  padding-top: 10px;
   margin-left: -20%;
   margin-top: 40%;
 }
@@ -101,7 +101,7 @@
   height: 300px;
   width: 400px;
   text-align: center;
-  padding-top: 50%;
+  padding-top: 10px;
   margin-left: 60%;
   margin-top: -70%;
 }
@@ -116,7 +116,7 @@
   height: 300px;
   width: 400px;
   text-align: center;
-  padding-top: 50%;
+  padding-top: 10px;
   margin-left: -100%;
   margin-top: -120%;
 }
@@ -139,17 +139,17 @@
   .btn{
     margin-left: -10%;
     margin-top: 100%;
-    padding-top: 50px;
+    padding-top: 10px;
   }
   .btn2{
     margin-left: -10%;
     margin-top: -90%;
-    padding-top: 50px;
-  }
+    padding-top: 10px;
+    }
   .btn3{
     margin-left: -10%;
     margin-top: -120%;
-    padding-top: 50px;
+    padding-top: 10px;
     height: 250px;
   }
   .major{
@@ -161,17 +161,17 @@
   .btn{
     margin-left: 10%;
     margin-top: 100%;
-    padding-top: 50px;
-  }
+    padding-top: 10px;
+    }
   .btn2{
     margin-left: 10%;
     margin-top: -90%;
-    padding-top: 50px;
-  }
+    padding-top: 10px;
+    }
   .btn3{
     margin-left: 10%;
     margin-top: -120%;
-    padding-top: 50px;
+    padding-top: 10px;
     height: 250px;
   }
   .major{
@@ -184,19 +184,19 @@
   .btn{
     margin-left: 10%;
     margin-top: 110%;
-    padding-top: 50px;
+    padding-top: 10px;
     width: 300px;
   }
   .btn2{
     margin-left: 10%;
     margin-top: -150%;
-    padding-top: 50px;
+    padding-top: 10px;
         width: 300px;
   }
   .btn3{
     margin-left: 10%;
     margin-top: -200%;
-    padding-top: 50px;
+    padding-top: 10px;
     height: 250px;
         width: 300px;
   }
@@ -238,14 +238,14 @@ b{
   .btn{
     margin-left: 10%;
     margin-top: 110%;
-    padding-top: 50px;
+    padding-top: 10px;
         height: 200px;
     width: 200px;
   }
   .btn2{
     margin-left: 10%;
     margin-top: -150%;
-    padding-top: 50px;
+    padding-top: 10px;
         height: 200px;
 
         width: 200px;
@@ -253,7 +253,7 @@ b{
   .btn3{
     margin-left: 10%;
     margin-top: -200%;
-    padding-top: 50px;
+    padding-top: 10px;
     height: 200px;
         width: 200px;
   }
