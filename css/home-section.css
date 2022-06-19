@@ -82,3 +82,11 @@
     display:none;
   }
 }
+@media screen and (max-width:550px) {
+  .home-heading {
+    font-size: 32px;
+  }
+  .home-content {
+    font-size: 18px;
+  }
+}
