@@ -29,6 +29,12 @@
   width: 60%;
 }
 
+/* highlighting the crucial environmental issues */
+.highlight {
+  color: #f3f293;
+  font-weight: bolder;
+}
+
 /* Home Button CSS */
 .button {
   background-image: linear-gradient(to right, #a1e3d8, #f3f293);
