@@ -18,6 +18,15 @@
     <!-- Favicon import -->
     <link rel="icon" href="/images/favicon.ico">
 
+    <!-- Interactive charts showcasing impact of air/water/land pollution. -->
+
+    <!--primary causes of air pollution chart-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="./js/3D-pie-chart.js"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="./js/water-quality-bar-graph.js"></script>
+
     <title>Environmental Issues</title>
 </head>
 
@@ -58,8 +67,8 @@
                     <li> <span class="highlight"> 9 out of 10 </span> worldwide live in places where air quality exceeds
                         WHO guideline limits.
                     </li>
-                    <li> <span class="highlight"> 9 out of 10 </span> worldwide live in places where air quality exceeds
-                        WHO guideline limits.
+                    <li> India ranks <span class="highlight"> 120th of 122 countries </span> in a global water quality
+                        index.
                     </li>
                     <li> <span class="highlight"> 9 out of 10 </span> worldwide live in places where air quality exceeds
                         WHO guideline limits.
@@ -100,8 +109,13 @@
                     data abovie and sources of air pollution is another graph)
                 </div>
                 <br>
-                <img src="./images/air.png" alt="" class="graph">
-                <br><br>
+
+                <!-- 3D piechart to represent contributors of air pollution -->
+                <div class="graph">
+                    <div id="piechart_3d"></div>
+                </div>
+
+                <br>
                 <div class="modal-text">
                     The combination of outdoor and indoor particulate matter, and ozone –
                     is a risk factor for many of the leading causes of death including heart disease, stroke, lower
@@ -159,6 +173,7 @@
 
             </div>
             <br>
+
             <img src="./images/land.png" alt="" class="graph"> <br> <br>
             <div class="modal-text">Global waste disposal: Although most of the waste we produce is relatively harmless
                 and
@@ -201,7 +216,13 @@
                 • Agricultural runoff containing pesticides and fertilisers<br>
 
             </div>
-            <img src="./images/water.jpg" alt="" class="graph" style="margin-left:15%"> <br> <br>
+            <!-- <img src="./images/water.jpg" alt="" class="graph" style="margin-left:15%">  -->
+            <!-- Column chart to represent water quality of different nations. -->
+            <div class="graph">
+                <div id="columnchart_values"></div>
+            </div>
+
+            <br>
             <br>
             <div class="modal-text">The effects of water pollution are very pronounced in our environment. Furthermore,
                 toxic
@@ -273,9 +294,9 @@
 
 
     <div class="section goal-screen" id="Goal" data-label="GOAL">
-                <div class="goal-title">
-                    Our Goal
-                </div>
+        <div class="goal-title">
+            Our Goal
+        </div>
         <p class="content-line">Environmental Concerns are no joke.
             <br>If humanity is to thrive for the foreseeable future, it must be our topmost
             priority to solve these environmental issues.

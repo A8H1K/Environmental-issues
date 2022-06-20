@@ -138,6 +138,15 @@
   font-size: 48px;
 }
 
+.graph {
+  /* height: 90%; */
+  /* margin-left: 30%; */
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  padding: 10px;
+}
+
 @media screen and (max-width: 1400px) {
   .btn {
     margin-left: -10%;
@@ -166,6 +175,18 @@
   }
 }
 
+@media screen and (max-width: 1386px) {
+  .graph {
+    /* margin-left: 10%; */
+    /* height: 400px; */
+    width: 100%;
+    padding: 10px;
+  }
+  .text {
+    font-size: 24px;
+  }
+}
+
 @media screen and (max-width: 720px) {
   .btn {
     margin-left: 10%;
@@ -186,6 +207,19 @@
   .issues-heading {
     margin-left: 10%;
   }
+}
+
+@media screen and (max-width: 595px) {
+  .graph {
+    margin-left: 1%;
+    height: 300px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
+b {
+  color: #005555;
 }
 
 @media screen and (max-width: 517px) {
@@ -213,32 +247,15 @@
   }
 }
 
-.graph {
-  height: 90%;
-  margin-left: 30%;
-}
-
-@media screen and (max-width: 1386px) {
+@media screen and (max-width: 430px) {
   .graph {
-    margin-left: 10%;
-    height: 400px;
-  }
-  .text {
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 595px) {
-  .graph {
-    margin-left: 1%;
+    margin-left: 0%;
+    width: 100%;
     height: 300px;
   }
   .text {
-    font-size: 20px;
+    font-size: 16px;
   }
-}
-b {
-  color: #005555;
 }
 
 @media screen and (max-width: 385px) {
@@ -267,16 +284,5 @@ b {
   .issues-heading {
     font-size: 36px;
     margin-left: 10%;
-  }
-}
-
-@media screen and (max-width:430px) {
-  .graph{
-    margin-left: 0%;
-    width: 100%;
-    height:300px
-  }   
-  .text{
-    font-size: 16px;
   }
 }
