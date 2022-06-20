@@ -38,8 +38,3 @@ function drawChart() {
   //Generating HTML & CSS based on data & attributes through google API
   chart.draw(view, options);
 }
-
-$(window).resize(function(){
-  drawChart();
-});
-

@@ -24,8 +24,13 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="./js/3D-pie-chart.js"></script>
 
+    <!-- Bar graph of water quality of different nations  -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="./js/water-quality-bar-graph.js"></script>
+
+    <!--global waste disposal methods -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="./js/waste-disposal.js"></script>
 
     <title>Environmental Issues</title>
 </head>
@@ -105,13 +110,14 @@
                     in rural areas, much of the pollution stems from biomass burning for cooking and keeping warm. In
                     autumn and spring months, large scale crop residue burning in agriculture fields – a cheaper
                     alternative to mechanical
-                    tilling – is a major source of smoke, smog and particulate pollution. (we can make graph from the
-                    data abovie and sources of air pollution is another graph)
+                    tilling – is a major source of smoke, smog and particulate pollution.
                 </div>
                 <br>
 
                 <!-- 3D piechart to represent contributors of air pollution -->
-                    <div id="piechart_3d"></div>
+                <div class="graph-container">
+                    <div id="piechart_3d" class="graph"></div>
+                </div>
 
                 <br>
                 <div class="modal-text">
@@ -119,24 +125,25 @@
                     is a risk factor for many of the leading causes of death including heart disease, stroke, lower
                     respiratory infections, lung cancer, diabetes and chronic obstructive pulmonary disease (COPD). The
                     Institute for Health Metrics and Evaluation (IHME) in its Global Burden of Disease study provide
-                    estimates of the number of deaths attributed to the range of risk factors for disease.1 In the
-                    visualization we see the number of deaths per year attributed to each risk factor. This chart
-                    is shown for the global total, but can be explored for any country or region using the “change
-                    country” toggle. Air pollution is one of the leading risk factors for death. In low-income
-                    countries, it is often very near the top of the list (or is the leading risk factor).
-                </div> <br>
+                    estimates of the number of deaths attributed to the range of risk factors for disease. Air pollution
+                    is one of the leading risk factors for death. In low-income countries, it is often very near the top
+                    of the list (or is the leading risk factor).
+                </div>
+                <br>
                 <h1> What can we do about it?</h1>
-                <div class="modal-text">
-                    • Drive your car less. <br>
-                    • Don't burn your garbage.<br>
-                    • Plant and care for trees.<br>
-                    • Reduce the number of trips you take in your car.<br>
+                <div>
+                    <ul>
+                        <li class="modal-text">Drive your car less.</li>
+                        <li class="modal-text">Don't burn your garbage.</li>
+                        <li class="modal-text">Plant and care for trees.</li>
+                        <li class="modal-text">Reduce the number of trips you take in your car</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- modal 2 starts -->
+    <!-- modal 2 starts (Land Pollution) -->
     <div id="open-modal2" class="modal-window">
         <div>
             <a href="#issues" title="Close" class="modal-close"><img src="images/close.svg"></a>
@@ -168,11 +175,13 @@
                 plants, as well as radioactive fallout from nuclear explosions. Since radioactive materials have a long
                 half-life, they
                 can survive in the soil for long periods of time.
-
             </div>
             <br>
-
-            <img src="./images/land.png" alt="" class="graph"> <br> <br>
+            <!-- donutchart to represent various waste disposals-->
+            <div class="graph-container">
+                <div id="donutchart" class="graph"></div>
+            </div>
+            <br>
             <div class="modal-text">Global waste disposal: Although most of the waste we produce is relatively harmless
                 and
                 easy to dispose of, some is
@@ -182,7 +191,9 @@
                 results in potential
                 indirect contamination—when incinerator ash returns to the land. Only 18% of waste disposal, involving
                 composting or
-                recycling, is "green" (green slices).</div><br>
+                recycling, is "green" (green slices).
+            </div>
+            <br>
             <h1> What can we do about it?</h1>
             <div class="modal-text">
                 • Reforestation avoids river and lake silting by reducing surface erosion and preserving the fertile
@@ -193,11 +204,13 @@
                 plastics degrade,
                 they decompose into nontoxic, harmless components. Just 32% of the greenhouse gases released by
                 petroleum-based plastics
-                are produced by them.</div>
+                are produced by them.
+            </div>
         </div>
     </div>
-    </div>
     <!--modal 2 ends-->
+
+    <!--modal 3 starts (Water Pollution)-->
     <div id="open-modal3" class="modal-window">
         <div>
             <a href="#issues" title="Close" class="modal-close"><img src="images/close.svg"></a>
@@ -207,16 +220,18 @@
                 lakes, rivers and seas. These contaminants are generally introduced by human activities like improper
                 sewage treatment
                 and oil spills. However, even natural processes such as eutrophication can cause water pollution.
-                Other significant causes of water pollution include:<br>
-                • Dumping solid wastes in water bodies<br>
-                • Disposing untreated industrial sewage into water bodies<br>
-                • Human and animal wastes<br>
-                • Agricultural runoff containing pesticides and fertilisers
+                Other significant causes of water pollution include:
+                <ul>
+                    <li class="modal-text">Dumping solid wastes in water bodies</li>
+                    <li class="modal-text">Disposing untreated industrial sewage into water bodies </li>
+                    <li class="modal-text">Human and animal wastes </li>
+                    <li class="modal-text">Agricultural runoff containing pesticides and fertilisers</li>
+                </ul>
             </div>
-            <!-- <img src="./images/water.jpg" alt="" class="graph" style="margin-left:15%">  -->
+
             <!-- Column chart to represent water quality of different nations. -->
-            <div>
-                <div id="columnchart_values"></div>
+            <div class="graph-container">
+                <div id="columnchart_values" class="graph"></div>
             </div>
 
 
@@ -235,37 +250,35 @@
                 local population then consumed these fish, and this resulted in the manifestation of ill effects and
                 neurological
                 diseases.<br>
-                Other consequences of water pollution include:<br>
-                • Disruption of the ecosystem<br>
-                • Threats to marine life<br>
-                • Increased risk of water-borne diseases<br>
-                • Increases toxic chemicals (such as mercury) in water bodies<br>
-                • Eutrophication<br></div>
-            <br> <br>
+                Other consequences of water pollution include:
+                <ul>
+                    <li class="modal-text">Disruption of the ecosystem</li>
+                    <li class="modal-text">Threats to marine life</li>
+                    <li class="modal-text">Increased risk of water-borne diseases</li>
+                    <li class="modal-text">Increases toxic chemicals (such as mercury) in water bodies</li>
+                </ul>
 
-            <h1>What can we do about it?</h1>
-            <div class="modal-text">
-                • Dispose of Toxic Chemicals Properly <br>
-                • Reduce the amount of water you use<br>
-                • Try to Avoid Plastic Containers<br>
+                <br>
+
+                <h1>What can we do about it?</h1>
+                <ul>
+                    <li class="modal-text">Dispose of Toxic Chemicals Properly</li>
+                    <li class="modal-text">Reduce the amount of water you use</li>
+                    <li class="modal-text">Try to Avoid Plastic Containers</li>
+                </ul>
             </div>
         </div>
     </div>
-    </div>
-    <!-- partial -->
-
-    </div>
     <!-- issues section ends -->
 
+    <!-- Team Section Starts -->
     <div class="section team-screen" id="team" data-label="TEAM">
-<div class="team-heading">
-            Our Team        </div>
-
-
-
-        <div class="team-pics">        
+        <div class="team-heading">
+            Our Team
+        </div>
+        <div class="team-pics">
             <div class="team-member">
-                <img src="./images/team/IMG_7585.jpg" alt="Adarsh Sharma" class="member-pic">
+                <img src="./images/Team/adarsh.jpg" alt="Adarsh Sharma" class="member-pic">
                 <a href="https://github.com/adarsharma-in" class="names" target="_blank">Adarsh Sharma</a>
             </div>
 
@@ -284,11 +297,10 @@
                 <div class="names">Lakshya</div>
             </div>
         </div>
-
-
     </div>
+    <!-- team section ends -->
 
-
+    <!-- Goal section starts -->
     <div class="section goal-screen" id="Goal" data-label="GOAL">
         <div class="goal-title">
             Our Goal
@@ -314,6 +326,7 @@
         </p>
         </h1>
     </div>
+    <!-- Goal section ends -->
 
 </body>
 <script type="text/javascript" src="/js/home.js"></script>
