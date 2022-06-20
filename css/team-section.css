@@ -11,6 +11,10 @@
   font-size: 40px;
 }
 
+.team-description {
+  font-size: 18px;
+}
+
 .team-pics {
   display: flex;
   justify-content: space-around;
