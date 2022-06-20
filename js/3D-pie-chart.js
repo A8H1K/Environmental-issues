@@ -19,6 +19,7 @@ function drawChart() {
     is3D: true,
     legend: { position: "bottom" },
     backgroundColor: "transparent",
+    left: 0,
   };
 
   var chart = new google.visualization.PieChart(
@@ -30,3 +31,4 @@ function drawChart() {
 }
 
 // 3D pie chart ends
+
