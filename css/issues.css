@@ -181,6 +181,18 @@
     font-size: 36px;
   }
 }
+.graph-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.graph {
+  height: 400px;
+  width: 500px;
+}
+
 
 @media screen and (max-width: 1386px) {
   .graph {
