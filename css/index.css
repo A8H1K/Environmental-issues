@@ -1,8 +1,8 @@
 /* Importing other CSS files */
 @import url(./home-section.css);
 @import url(./issues.css);
-@import url(./team-section.css);
 @import url(./goal-section.css);
+@import url(./team-section.css);
 
 * {
   /* CSS properties for complete website */
