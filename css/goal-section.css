@@ -1,8 +1,12 @@
+
+/* goal screen */
+
 .goal-screen {
   margin-left: 150px;
-  margin-right: 50px;
+  margin-right: 50px; 
 }
 
+/* goal title */
 .goal-title {
   font-size: 60px;
   font-weight: bold;
@@ -10,11 +14,15 @@
   padding-top: 300px;
 }
 
+/* content line */
+
 .content-line {
   padding-left: 0px;
   margin-top: 125px;
   font-size: 28px;
 }
+
+/* making it responsive */
 
 @media screen and (max-width: 900px) {
   .title {
@@ -29,5 +37,16 @@
 @media screen and (max-width: 385px) {
   .nav {
     margin-left: -30px;
+  }
+  .goal-title{
+    font-size: 40px;
+    padding-top: 100px;
+    margin-left: -80px;
+  }
+  .content-line{
+    font-size:16px;
+    margin-top:40px;
+    margin-left: -80px;
+    max-width: 100vh;
   }
 }

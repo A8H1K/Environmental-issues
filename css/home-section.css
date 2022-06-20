@@ -103,4 +103,32 @@
   }
 }
 
+
+@media screen and (max-width:480px) {
+  .home-heading{
+    font-size: 40px;
+    padding-top: 150px;
+  }
+  .home-content{
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width:352px) {
+  .home-heading{
+    font-size: 32px;
+    padding-top: -50px;
+  }
+  .home-content{
+    font-size: 16px;
+    padding-top:20px;
+    padding-left: -30px;
+  }
+  .home-img{
+    display: none;
+  }
+}
+
+
 /* Home Screen CSS Ends */
