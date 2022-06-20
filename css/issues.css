@@ -1,8 +1,12 @@
+
+
+/* description inside the modal */
 .modal-text {
   color: #005555;
   font-size: 36px;
 }
 
+/* the full modal window */
 .modal-window {
   position: fixed;
   background-color: rgb(0, 85, 85, 0.75);
@@ -21,6 +25,8 @@
   opacity: 1;
   pointer-events: auto;
 }
+
+/* divs inside the modal window */
 .modal-window > div {
   width: 80%;
   height: 80%;
@@ -36,6 +42,7 @@
   border: 1px solid rgba(255, 255, 255, 0.125);
   overflow: auto;
 }
+/* modal headers */
 .modal-window header {
   font-weight: bold;
 }
@@ -45,6 +52,7 @@
   color: #005555;
 }
 
+/* cross button on the modal */
 .modal-close {
   line-height: 50px;
   font-size: 80%;
@@ -74,6 +82,7 @@
   margin-bottom: 15px;
 }
 
+/* button to open modal1 */
 .btn {
   background: rgba(247, 255, 147, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -91,6 +100,8 @@
   margin-top: 40%;
 }
 
+
+/* button to open modal2 */
 .btn2 {
   background: rgba(247, 255, 147, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -107,6 +118,8 @@
   margin-left: 60%;
   margin-top: -70%;
 }
+
+/* button to open modal 3 */
 .btn3 {
   background: rgba(247, 255, 147, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -128,6 +141,8 @@
   padding-right: 0.3em;
 }
 
+
+/* 'Major environmental issues in today's age */
 .issues-heading {
   color: #f5f0da;
   text-align: right;
@@ -138,15 +153,7 @@
   font-size: 48px;
 }
 
-.graph {
-  /* height: 90%; */
-  /* margin-left: 30%; */
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  padding: 10px;
-}
-
+/* making the modals responsive */
 @media screen and (max-width: 1400px) {
   .btn {
     margin-left: -10%;
