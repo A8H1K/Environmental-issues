@@ -24,8 +24,13 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="./js/3D-pie-chart.js"></script>
 
+    <!-- Bar graph of water quality of different nations  -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="./js/water-quality-bar-graph.js"></script>
+
+    <!--global waste disposal methods -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="./js/waste-disposal.js"></script>
 
     <title>Environmental Issues</title>
 </head>
@@ -104,14 +109,13 @@
                     premature deaths of 2 million Indians every year. Emissions come from vehicles and industry, whereas
                     in rural areas, much of the pollution stems from biomass burning for cooking and keeping warm. In
                     autumn and spring months, large scale crop residue burning in agriculture fields – a cheaper
-                    alternative to mechanical
-                    tilling – is a major source of smoke, smog and particulate pollution. (we can make graph from the
-                    data abovie and sources of air pollution is another graph)
+                    alternative to mechanical tilling – is a major source of smoke, smog and particulate pollution. (we
+                    can make graph from the data abovie and sources of air pollution is another graph)
                 </div>
                 <br>
 
                 <!-- 3D piechart to represent contributors of air pollution -->
-                    <div id="piechart_3d"></div>
+                <div id="piechart_3d"></div>
 
                 <br>
                 <div class="modal-text">
@@ -126,11 +130,13 @@
                     countries, it is often very near the top of the list (or is the leading risk factor).
                 </div> <br>
                 <h1> What can we do about it?</h1>
-                <div class="modal-text">
-                    • Drive your car less. <br>
-                    • Don't burn your garbage.<br>
-                    • Plant and care for trees.<br>
-                    • Reduce the number of trips you take in your car.<br>
+                <div>
+                    <ul>
+                        <li class="modal-text">Drive your car less.</li>
+                        <li class="modal-text">Don't burn your garbage.</li>
+                        <li class="modal-text">Plant and care for trees.</li>
+                        <li class="modal-text">Reduce the number of trips you take in your car</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -171,8 +177,12 @@
 
             </div>
             <br>
+            <div class="experiment">
+                <div id="donutchart" class="experiment-2"></div>
+            </div>
 
-            <img src="./images/land.png" alt="" class="graph"> <br> <br>
+
+            <br>
             <div class="modal-text">Global waste disposal: Although most of the waste we produce is relatively harmless
                 and
                 easy to dispose of, some is
@@ -213,7 +223,7 @@
                 • Human and animal wastes<br>
                 • Agricultural runoff containing pesticides and fertilisers
             </div>
-            <!-- <img src="./images/water.jpg" alt="" class="graph" style="margin-left:15%">  -->
+
             <!-- Column chart to represent water quality of different nations. -->
             <div>
                 <div id="columnchart_values"></div>
