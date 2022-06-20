@@ -130,5 +130,14 @@
   }
 }
 
+@media screen and (max-height: 660px) {
+  .home-img{
+    display: none;
+  }
+  .home-heading{
+    padding-top: 0px;
+    font-size: 32px;
+  }
+}
 
 /* Home Screen CSS Ends */

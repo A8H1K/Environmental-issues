@@ -52,3 +52,12 @@
     width: 150px;
   }
 }
+
+@media screen and (max-height: 660px) {
+  .team-screen{
+    padding-top: 0%;
+  }
+  .member-pic{
+    display: none;
+  }
+}

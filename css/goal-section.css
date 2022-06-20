@@ -50,3 +50,9 @@
     max-width: 100vh;
   }
 }
+
+@media screen and (max-height: 660px) {
+  .goal-title{
+    padding-top: 40%;
+  }
+}
