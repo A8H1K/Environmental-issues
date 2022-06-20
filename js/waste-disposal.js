@@ -4,12 +4,12 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   // Data to be represented in Donut Chart
   var data = google.visualization.arrayToDataTable([
-    ["Task", "Hours per Day"],
-    ["Work", 11],
-    ["Eat", 2],
-    ["Commute", 2],
-    ["Watch TV", 2],
-    ["Sleep", 7],
+    ["Task", "Waste disposal"],
+    ["landfill", 36],
+    ["Open Dump", 33],
+    ["Incineration", 11],
+    ["Recycling", 13],
+    ["Composting", 5],
   ]);
   //Attributes of the Bar Graph
   var options = {
