@@ -51,7 +51,7 @@
   }
 }
 
-@media screen and (max-height: 660px) {
+@media screen and (max-height: 720px) {
   .goal-title{
     padding-top: 40%;
   }
